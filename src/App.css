@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding: 1% 30%;
+}
+
+.contact-titles > p {
+  font-size: 1.5rem;
+}
+
+.contact-img {
+  width: 10%;
+  height: 10%;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  padding: 1% 30%;
+}
+
+.contact-content > p {
+  font-size: 1.5rem;
+}
